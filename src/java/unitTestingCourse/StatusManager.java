@@ -4,7 +4,7 @@ package unitTestingCourse;
  * @author leandro.mora
  */
 public class StatusManager {
-    public String Status;
+    public String status;
 
     private Indicator indicator;
 
@@ -17,20 +17,20 @@ public class StatusManager {
     }
 
     public String getStatus() {
-        return Status;
+        return status;
     }
 
     public void setStatus(String status) {
-        Status = status;
+        status = status;
     }
 
     public void setErrorStatus() {
-        Status = "Error";
+        status = "Error";
         indicator.setColor("#FF0000");
     }
 
     public void setOkStatus() {
-        Status = "Ok";
+        status = "Ok";
     }
 
     public void changeStatusByCode(int statusCode) {
