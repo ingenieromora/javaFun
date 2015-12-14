@@ -1,4 +1,6 @@
-package unitTestingCourse;
+package unitTestingCourse.example2;
+
+import unitTestingCourse.example2.Employee;
 
 /**
  * @author leandro.mora

@@ -1,9 +1,10 @@
-package unitTestingCourse;
+package unitTestingCourse.example2;
 
 import junit.framework.Assert;
-import org.junit.Before;
 import org.junit.Test;
-import unitTestingCourse.dbImp.DatabaseFake;
+import unitTestingCourse.example2.dbImp.DatabaseFake;
+import unitTestingCourse.example2.Employee;
+import unitTestingCourse.example2.IDatabase;
 
 /**
  * @author leandro.mora

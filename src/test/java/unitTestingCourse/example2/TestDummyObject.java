@@ -1,9 +1,12 @@
-package unitTestingCourse;
+package unitTestingCourse.example2;
 
 import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import unitTestingCourse.employeeServiceImp.EmployeeWriter;
+import unitTestingCourse.example2.employeeServiceImp.EmployeeWriter;
+import unitTestingCourse.example2.Employee;
+import unitTestingCourse.example2.EmployeeData;
+import unitTestingCourse.example2.EmployeeService;
 
 /**
  * @author leandro.mora

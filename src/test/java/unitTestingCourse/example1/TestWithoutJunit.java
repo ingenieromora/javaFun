@@ -1,4 +1,4 @@
-package unitTestingCourse;
+package unitTestingCourse.example1;
 
 /**
  * @author leandro.mora
@@ -9,7 +9,7 @@ public class TestWithoutJunit {
     {
         StatusManager manager = new StatusManager();
         manager.changeStatusByCode(1);
-        if (manager.Status == "Error") {
+        if (manager.getStatus() == "Error") {
             System.out.println("Error  status has been successfully set.");
         } else {
             System.out.println("Something is not right");
@@ -20,7 +20,7 @@ public class TestWithoutJunit {
     {
         StatusManager manager = new StatusManager();
         manager.changeStatusByCode(2);
-        if (manager.Status == "Ok") {
+        if (manager.getStatus() == "Ok") {
             System.out.println("Ok status has been successfully set");
         } else {
             System.out.println("Something is not right");

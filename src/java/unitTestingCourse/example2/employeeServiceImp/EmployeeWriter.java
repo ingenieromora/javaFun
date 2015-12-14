@@ -1,8 +1,8 @@
-package unitTestingCourse.employeeServiceImp;
+package unitTestingCourse.example2.employeeServiceImp;
 
-import unitTestingCourse.Employee;
-import unitTestingCourse.EmployeeData;
-import unitTestingCourse.EmployeeService;
+import unitTestingCourse.example2.Employee;
+import unitTestingCourse.example2.EmployeeData;
+import unitTestingCourse.example2.EmployeeService;
 
 /**
  * @author leandro.mora

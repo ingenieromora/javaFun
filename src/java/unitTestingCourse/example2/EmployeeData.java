@@ -1,4 +1,4 @@
-package unitTestingCourse;
+package unitTestingCourse.example2;
 
 /**
  * @author leandro.mora

@@ -1,8 +1,10 @@
-package unitTestingCourse;
+package unitTestingCourse.example1;
 
 import junit.framework.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;
+import unitTestingCourse.example1.Indicator;
+import unitTestingCourse.example1.StatusManager;
 
 /**
  * @author leandro.mora

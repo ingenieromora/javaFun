@@ -1,7 +1,7 @@
-package unitTestingCourse.dbImp;
+package unitTestingCourse.example2.dbImp;
 
-import unitTestingCourse.Employee;
-import unitTestingCourse.IDatabase;
+import unitTestingCourse.example2.Employee;
+import unitTestingCourse.example2.IDatabase;
 
 import java.util.ArrayList;
 import java.util.Iterator;
