@@ -9,7 +9,6 @@ public class CruiseService implements IService {
     public CruiseService() {
     }
 
-    @Override
     public Integer getRevenue(Integer guests) {
         return 100 * guests;
     }

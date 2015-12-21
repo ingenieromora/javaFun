@@ -11,11 +11,11 @@ public class ServiceFactory {
     public static IService createService(Integer codeOfService) {
         switch (codeOfService) {
             case 1:
-                new HotelService();
+                return new HotelService();
             case 2:
-                new CruiseService();
+                return new CruiseService();
             default:
-                throw new IllegalArgumentException();
+                throw new IllegalArgumentException("Invalid Code");
         }
     }
 

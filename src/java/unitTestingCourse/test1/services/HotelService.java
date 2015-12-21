@@ -10,13 +10,14 @@ public class HotelService implements IService {
     private Hotel hotel;
 
     public HotelService() {
+        hotel = new Hotel();
     }
 
     public HotelService(Hotel hotel) {
         this.hotel = hotel;
     }
 
-    @Override
+
     public Integer getRevenue(Integer guests) {
         if(hotel.getGuestsAllowed() < guests){
             throw new IllegalArgumentException("Number of guests can not be superior to" + hotel.getGuestsAllowed());
