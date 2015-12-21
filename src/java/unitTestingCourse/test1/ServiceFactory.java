@@ -1,6 +1,7 @@
 package unitTestingCourse.test1;
 
 import unitTestingCourse.test1.services.CruiseService;
+import unitTestingCourse.test1.services.FlightsService;
 import unitTestingCourse.test1.services.HotelService;
 
 /**
@@ -14,6 +15,8 @@ public class ServiceFactory {
                 return new HotelService();
             case 2:
                 return new CruiseService();
+            case 3:
+                return new FlightsService();
             default:
                 throw new IllegalArgumentException("Invalid Code");
         }
